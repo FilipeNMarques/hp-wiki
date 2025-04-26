@@ -46,4 +46,18 @@ Built from scratch using **SwiftUI** and **CoreData**, it focuses on performance
 - `MVVM Architecture`
 - `Custom Theming`
 
+### Future Improvements
+
+- **Add Unit Tests**:  
+  Cover key view models (e.g., `HomeViewModel`, `FavoriteViewModel`) and services with unit and integration tests to ensure better stability and maintainability.
+
+- **Implement API Caching**:  
+  Introduce a lightweight caching mechanism (e.g., in-memory or disk cache) for API responses to reduce network usage and improve performance during navigation.
+
+- **Accessibility Enhancements**:  
+  Improve VoiceOver support, dynamic type scaling, and color contrast adjustments to make the app fully accessible to all users.
+
+- **Offline Mode**:  
+  Allow users to browse previously loaded characters and spells even when offline, using CoreData as a local cache for fetched data.
+
 ---
