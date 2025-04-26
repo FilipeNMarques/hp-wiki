@@ -4,8 +4,8 @@ An immersive iOS experience built in SwiftUI, using CoreData, DocC, and Harry Po
 @Metadata { 
     @PageImage(purpose: icon, source: "hp-icon")
     @PageColor(blue)
-    @CallToAction(purpose: link, url: "hp-icon")
-    @PageKing(sampleCode)
+    @CallToAction(purpose: link, url: "https://github.com/FilipeNMarques/hp-wiki")
+    @PageKind(sampleCode)
 }
 
 The **Harry Potter Wiki App** provides users with a magical journey into the Harry Potter universe.
