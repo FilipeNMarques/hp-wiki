@@ -6,15 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B775585A2DBD7AAD00C657F5 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = B77558592DBD7AAD00C657F5 /* Documentation.docc */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B7455D572DBD1D4800316609 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7455D392DBD1D4700316609 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7455D402DBD1D4700316609;
-			remoteInfo = HaryyPotterWiki;
-		};
-		B7455D612DBD1D4800316609 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7455D392DBD1D4700316609 /* Project object */;
 			proxyType = 1;
@@ -26,7 +23,7 @@
 /* Begin PBXFileReference section */
 		B7455D412DBD1D4700316609 /* HaryyPotterWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaryyPotterWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaryyPotterWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaryyPotterWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77558592DBD7AAD00C657F5 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +35,6 @@
 		B7455D592DBD1D4800316609 /* HaryyPotterWikiTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HaryyPotterWikiTests;
-			sourceTree = "<group>";
-		};
-		B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HaryyPotterWikiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,22 +54,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7455D5D2DBD1D4800316609 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		B7455D382DBD1D4700316609 = {
 			isa = PBXGroup;
 			children = (
+				B77558592DBD7AAD00C657F5 /* Documentation.docc */,
 				B7455D432DBD1D4700316609 /* HaryyPotterWiki */,
 				B7455D592DBD1D4800316609 /* HaryyPotterWikiTests */,
-				B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */,
 				B7455D422DBD1D4700316609 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +72,6 @@
 			children = (
 				B7455D412DBD1D4700316609 /* HaryyPotterWiki.app */,
 				B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */,
-				B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +124,6 @@
 			productReference = B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B7455D5F2DBD1D4800316609 /* HaryyPotterWikiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B7455D702DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiUITests" */;
-			buildPhases = (
-				B7455D5C2DBD1D4800316609 /* Sources */,
-				B7455D5D2DBD1D4800316609 /* Frameworks */,
-				B7455D5E2DBD1D4800316609 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B7455D622DBD1D4800316609 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */,
-			);
-			name = HaryyPotterWikiUITests;
-			packageProductDependencies = (
-			);
-			productName = HaryyPotterWikiUITests;
-			productReference = B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +138,6 @@
 						CreatedOnToolsVersion = 16.1;
 					};
 					B7455D552DBD1D4800316609 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = B7455D402DBD1D4700316609;
-					};
-					B7455D5F2DBD1D4800316609 = {
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = B7455D402DBD1D4700316609;
 					};
@@ -202,7 +159,6 @@
 			targets = (
 				B7455D402DBD1D4700316609 /* HaryyPotterWiki */,
 				B7455D552DBD1D4800316609 /* HaryyPotterWikiTests */,
-				B7455D5F2DBD1D4800316609 /* HaryyPotterWikiUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,13 +178,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7455D5E2DBD1D4800316609 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -236,17 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B775585A2DBD7AAD00C657F5 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B7455D522DBD1D4800316609 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7455D5C2DBD1D4800316609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,11 +203,6 @@
 			isa = PBXTargetDependency;
 			target = B7455D402DBD1D4700316609 /* HaryyPotterWiki */;
 			targetProxy = B7455D572DBD1D4800316609 /* PBXContainerItemProxy */;
-		};
-		B7455D622DBD1D4800316609 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B7455D402DBD1D4700316609 /* HaryyPotterWiki */;
-			targetProxy = B7455D612DBD1D4800316609 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,11 +337,14 @@
 				DEVELOPMENT_TEAM = 7S94JX43MW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Harry Potter Wiki";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,9 +352,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -428,11 +373,14 @@
 				DEVELOPMENT_TEAM = 7S94JX43MW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Harry Potter Wiki";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +388,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWiki;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,40 +436,6 @@
 			};
 			name = Release;
 		};
-		B7455D712DBD1D4800316609 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7S94JX43MW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HaryyPotterWiki;
-			};
-			name = Debug;
-		};
-		B7455D722DBD1D4800316609 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7S94JX43MW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HaryyPotterWiki;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,15 +462,6 @@
 			buildConfigurations = (
 				B7455D6E2DBD1D4800316609 /* Debug */,
 				B7455D6F2DBD1D4800316609 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B7455D702DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7455D712DBD1D4800316609 /* Debug */,
-				B7455D722DBD1D4800316609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
