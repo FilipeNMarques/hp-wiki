@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B7455D572DBD1D4800316609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7455D392DBD1D4700316609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7455D402DBD1D4700316609;
+			remoteInfo = HaryyPotterWiki;
+		};
+		B7455D612DBD1D4800316609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7455D392DBD1D4700316609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7455D402DBD1D4700316609;
+			remoteInfo = HaryyPotterWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7455D412DBD1D4700316609 /* HaryyPotterWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaryyPotterWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaryyPotterWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaryyPotterWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B7455D432DBD1D4700316609 /* HaryyPotterWiki */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaryyPotterWiki;
+			sourceTree = "<group>";
+		};
+		B7455D592DBD1D4800316609 /* HaryyPotterWikiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaryyPotterWikiTests;
+			sourceTree = "<group>";
+		};
+		B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HaryyPotterWikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7455D3E2DBD1D4700316609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D532DBD1D4800316609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D5D2DBD1D4800316609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7455D382DBD1D4700316609 = {
+			isa = PBXGroup;
+			children = (
+				B7455D432DBD1D4700316609 /* HaryyPotterWiki */,
+				B7455D592DBD1D4800316609 /* HaryyPotterWikiTests */,
+				B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */,
+				B7455D422DBD1D4700316609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7455D422DBD1D4700316609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7455D412DBD1D4700316609 /* HaryyPotterWiki.app */,
+				B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */,
+				B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7455D402DBD1D4700316609 /* HaryyPotterWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7455D6A2DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWiki" */;
+			buildPhases = (
+				B7455D3D2DBD1D4700316609 /* Sources */,
+				B7455D3E2DBD1D4700316609 /* Frameworks */,
+				B7455D3F2DBD1D4700316609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B7455D432DBD1D4700316609 /* HaryyPotterWiki */,
+			);
+			name = HaryyPotterWiki;
+			packageProductDependencies = (
+			);
+			productName = HaryyPotterWiki;
+			productReference = B7455D412DBD1D4700316609 /* HaryyPotterWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7455D552DBD1D4800316609 /* HaryyPotterWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7455D6D2DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiTests" */;
+			buildPhases = (
+				B7455D522DBD1D4800316609 /* Sources */,
+				B7455D532DBD1D4800316609 /* Frameworks */,
+				B7455D542DBD1D4800316609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7455D582DBD1D4800316609 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7455D592DBD1D4800316609 /* HaryyPotterWikiTests */,
+			);
+			name = HaryyPotterWikiTests;
+			packageProductDependencies = (
+			);
+			productName = HaryyPotterWikiTests;
+			productReference = B7455D562DBD1D4800316609 /* HaryyPotterWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7455D5F2DBD1D4800316609 /* HaryyPotterWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7455D702DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiUITests" */;
+			buildPhases = (
+				B7455D5C2DBD1D4800316609 /* Sources */,
+				B7455D5D2DBD1D4800316609 /* Frameworks */,
+				B7455D5E2DBD1D4800316609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7455D622DBD1D4800316609 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7455D632DBD1D4800316609 /* HaryyPotterWikiUITests */,
+			);
+			name = HaryyPotterWikiUITests;
+			packageProductDependencies = (
+			);
+			productName = HaryyPotterWikiUITests;
+			productReference = B7455D602DBD1D4800316609 /* HaryyPotterWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7455D392DBD1D4700316609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B7455D402DBD1D4700316609 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B7455D552DBD1D4800316609 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B7455D402DBD1D4700316609;
+					};
+					B7455D5F2DBD1D4800316609 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B7455D402DBD1D4700316609;
+					};
+				};
+			};
+			buildConfigurationList = B7455D3C2DBD1D4700316609 /* Build configuration list for PBXProject "HaryyPotterWiki" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7455D382DBD1D4700316609;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B7455D422DBD1D4700316609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7455D402DBD1D4700316609 /* HaryyPotterWiki */,
+				B7455D552DBD1D4800316609 /* HaryyPotterWikiTests */,
+				B7455D5F2DBD1D4800316609 /* HaryyPotterWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7455D3F2DBD1D4700316609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D542DBD1D4800316609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D5E2DBD1D4800316609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7455D3D2DBD1D4700316609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D522DBD1D4800316609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455D5C2DBD1D4800316609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7455D582DBD1D4800316609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7455D402DBD1D4700316609 /* HaryyPotterWiki */;
+			targetProxy = B7455D572DBD1D4800316609 /* PBXContainerItemProxy */;
+		};
+		B7455D622DBD1D4800316609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7455D402DBD1D4700316609 /* HaryyPotterWiki */;
+			targetProxy = B7455D612DBD1D4800316609 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7455D682DBD1D4800316609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7455D692DBD1D4800316609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7455D6B2DBD1D4800316609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaryyPotterWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7455D6C2DBD1D4800316609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HaryyPotterWiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7455D6E2DBD1D4800316609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaryyPotterWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaryyPotterWiki";
+			};
+			name = Debug;
+		};
+		B7455D6F2DBD1D4800316609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaryyPotterWiki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HaryyPotterWiki";
+			};
+			name = Release;
+		};
+		B7455D712DBD1D4800316609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaryyPotterWiki;
+			};
+			name = Debug;
+		};
+		B7455D722DBD1D4800316609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S94JX43MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.filipemarques.HaryyPotterWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HaryyPotterWiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7455D3C2DBD1D4700316609 /* Build configuration list for PBXProject "HaryyPotterWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455D682DBD1D4800316609 /* Debug */,
+				B7455D692DBD1D4800316609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7455D6A2DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455D6B2DBD1D4800316609 /* Debug */,
+				B7455D6C2DBD1D4800316609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7455D6D2DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455D6E2DBD1D4800316609 /* Debug */,
+				B7455D6F2DBD1D4800316609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7455D702DBD1D4800316609 /* Build configuration list for PBXNativeTarget "HaryyPotterWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455D712DBD1D4800316609 /* Debug */,
+				B7455D722DBD1D4800316609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7455D392DBD1D4700316609 /* Project object */;
+}
