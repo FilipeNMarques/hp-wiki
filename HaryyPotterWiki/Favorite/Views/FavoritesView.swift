@@ -32,6 +32,8 @@ struct FavoritesView: View {
                             .foregroundColor(.white)
                         Spacer()
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Color("HPPrimaryColor"))
                 } else {
                     List {
                         ForEach(favorites) { character in

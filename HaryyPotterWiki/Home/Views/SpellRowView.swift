@@ -10,11 +10,16 @@ import SwiftUI
 struct SpellRowView: View {
     let spell: SpellDTO
 
+    @AppStorage("preferredHouse") private var preferredHouseRaw: String = House.gryffindor.rawValue
+    private var selectedHouse: House {
+        House(rawValue: preferredHouseRaw) ?? .gryffindor
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(spell.name)
                 .font(.headline)
-                .foregroundColor(Color("HPAccentColor"))
+                .foregroundColor(selectedHouse.primaryColor)
 
             Text(spell.description)
                 .font(.subheadline)

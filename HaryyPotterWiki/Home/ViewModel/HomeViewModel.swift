@@ -21,8 +21,7 @@ final class HomeViewModel: ObservableObject {
     ///
     /// - Parameters:
     ///   - filter: The category of data to load (all characters, students, staff, or spells).
-    ///   - forceRefresh: A boolean indicating whether to bypass any cached data and reload from the API.
-    func load(for filter: FilterType, forceRefresh: Bool = false) async {
+    func load(for filter: FilterType) async {
         await MainActor.run { isLoading = true }
 
         do {
@@ -31,28 +30,24 @@ final class HomeViewModel: ObservableObject {
                 let result = try await CharacterRequest.getAllCharacters()
                 await MainActor.run {
                     characters = result
-                    spells = []
                 }
 
             case .students:
                 let result = try await CharacterRequest.getStudents()
                 await MainActor.run {
                     characters = result
-                    spells = []
                 }
 
             case .staff:
                 let result = try await CharacterRequest.getStaff()
                 await MainActor.run {
                     characters = result
-                    spells = []
                 }
 
             case .spells:
                 let result = try await SpellRequest.getAllSpells()
                 await MainActor.run {
                     spells = result
-                    characters = []
                 }
             }
 
